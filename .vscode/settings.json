@@ -1,0 +1,7 @@
+{
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "terminal.integrated.fontFamily": "'Fira Code'",
+    "terminal.explorerKind": "integrated",
+    "terminal.integrated.cursorStyle": "underline",
+    "terminal.integrated.cursorBlinking": true
+}
