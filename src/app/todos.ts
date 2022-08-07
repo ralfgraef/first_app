@@ -19,5 +19,10 @@ export interface Todo {
       id: 3,
       description: 'Learning to cook',
       isChecked: false
+    },
+    {
+      id:4,
+      description: 'Cleaning the garden and the terasse and make it all schön',
+      isChecked: false
     }
   ];
