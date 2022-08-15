@@ -4,7 +4,7 @@ export interface Todo {
     isChecked: boolean;
   }
   
-  export const todos = [
+  export let todos = [
     {
       id: 1,
       description: 'Bulding up the Hollywood-Schaukel',
