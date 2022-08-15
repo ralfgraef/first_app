@@ -5,12 +5,14 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { TodoInputComponent } from './todo-input/todo-input.component';
 import { FormsModule } from '@angular/forms';
+import { TodoOutputComponent } from './todo-output/todo-output.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    TodoInputComponent
+    TodoInputComponent,
+    TodoOutputComponent
   ],
   imports: [
     BrowserModule,
