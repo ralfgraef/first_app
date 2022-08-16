@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { todos } from './todos';
 
 @Component({
   selector: 'app-root',
@@ -7,10 +8,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'first_app';
-  items: string[] = ['item1', 'item2', 'item3', 'item4'];
+  todos = todos;
+  element = {};
 
-  addItem(newItem: string) {
+  addTodo(data: string) {
     console.log("Hier Aufruf von addItem");
-    this.items.push(newItem);
+    this.todos.push({id:this.todos.length +1, description: data,isChecked:false});
   }
 }

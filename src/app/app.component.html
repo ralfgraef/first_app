@@ -1,6 +1,6 @@
 <div class="container">
   <app-navbar></app-navbar>
   
-  <app-todo-input (newItemEvent)="addItem($event)"></app-todo-input>
-  <app-todo-output *ngFor="let item of items" [item]="item"></app-todo-output>
+  <app-todo-input (newItemEvent)="addTodo($event)"></app-todo-input>
+  <app-todo-output *ngFor="let todo of todos" [todo]="todo"></app-todo-output>
   

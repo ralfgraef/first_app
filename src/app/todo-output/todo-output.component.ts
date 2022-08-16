@@ -6,7 +6,8 @@ import { Component, Input, OnInit } from '@angular/core';
   styleUrls: ['./todo-output.component.css']
 })
 export class TodoOutputComponent implements OnInit {
-  @Input() item: string = '';
+  @Input() todo!: { id: number; description: string; isChecked: boolean; };
+
   constructor() { 
   }
 
